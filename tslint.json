@@ -1,0 +1,14 @@
+{
+  "extends": ["tsLint:recommended", "tslint-react", "tslint-config-prettier"],
+ "rules": {
+   "member-access": false,
+   "ordered-imports": false
+ },
+  "defaultSeverity": "warning",
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  }
+}

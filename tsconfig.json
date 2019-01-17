@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "outDir": "./dist/",
+    "sourceMap": true,
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
     "allowJs": true,
+    "checkJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -17,7 +20,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "watch": true
   },
   "include": [
     "src"
